@@ -1,11 +1,11 @@
 %define		fversion	%(echo %{version} |tr r -)
 %define		modulename	gee
 Summary:	Generalized Estimation Equation solver
-Summary(pl):	Ogólny przybli¿ony rozwi±zywacz równañ
+Summary(pl):	Rozwi±zywanie uogólnionych równañ estymacji
 Name:		R-cran-%{modulename}
 Version:	4.13r10
 Release:	1
-License:	GPL version 2
+License:	GPL v2
 Group:		Applications/Math
 Source0:	ftp://stat.ethz.ch/R-CRAN/src/contrib/%{modulename}_%{fversion}.tar.gz
 # Source0-md5:	7f32a7f7b022dd366d27482a3561d2a6
@@ -16,10 +16,10 @@ Requires(post,postun):	textutils
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Generalized Estimation Equation solver
+Generalized Estimation Equation solver.
 
 %description
-Ogólny przybli¿ony rozwi±zywacz równañ.
+Rozwi±zywanie uogólnionych równañ estymacji.
 
 %prep
 %setup -q -c

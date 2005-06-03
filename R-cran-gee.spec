@@ -10,6 +10,8 @@ Group:		Applications/Math
 Source0:	ftp://stat.ethz.ch/R-CRAN/src/contrib/%{modulename}_%{fversion}.tar.gz
 # Source0-md5:	7f32a7f7b022dd366d27482a3561d2a6
 BuildRequires:	R-base >= 2.0.0
+BuildRequires:	blas-devel
+BuildRequires:	gcc-g77
 Requires(post,postun):	R-base >= 2.0.0
 Requires(post,postun):	perl-base
 Requires(post,postun):	textutils

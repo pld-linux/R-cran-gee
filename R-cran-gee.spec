@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Generalized Estimation Equation solver.
 
-%description
+%description -l pl
 Rozwi±zywanie uogólnionych równañ estymacji.
 
 %prep

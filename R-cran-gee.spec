@@ -1,7 +1,7 @@
 %define		fversion	%(echo %{version} |tr r -)
 %define		modulename	gee
 Summary:	Generalized Estimation Equation solver
-Summary(pl.UTF-8):   Rozwiązywanie uogólnionych równań estymacji
+Summary(pl.UTF-8):	Rozwiązywanie uogólnionych równań estymacji
 Name:		R-cran-%{modulename}
 Version:	4.13r10
 Release:	2

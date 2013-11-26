@@ -3,12 +3,12 @@
 Summary:	Generalized Estimation Equation solver
 Summary(pl.UTF-8):	Rozwiązywanie uogólnionych równań estymacji
 Name:		R-cran-%{modulename}
-Version:	4.13r10
-Release:	3
+Version:	4.13r18
+Release:	1
 License:	GPL v2
 Group:		Applications/Math
 Source0:	ftp://stat.ethz.ch/R-CRAN/src/contrib/%{modulename}_%{fversion}.tar.gz
-# Source0-md5:	7f32a7f7b022dd366d27482a3561d2a6
+# Source0-md5:	7a74002026426cfbb58e212bf31af38c
 BuildRequires:	R >= 2.8.1
 BuildRequires:	blas-devel
 BuildRequires:	gcc-fortran
